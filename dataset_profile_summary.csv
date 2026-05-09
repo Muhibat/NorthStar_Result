@@ -1,0 +1,11 @@
+dataset,rows,columns,column_names
+app_events,640,10,"event_id, customer_id, order_id, event_timestamp, event_type, session_id, device_type, zone_context, api_latency_ms, success_flag"
+complaints,320,10,"complaint_id, customer_id, order_id, complaint_type, channel, severity, created_at, status, resolution_days, compensation_amount"
+customers,650,9,"customer_id, age, home_zone, customer_type, signup_date, loyalty_score, app_engagement_score, preferred_channel, account_status"
+data_dictionary,9,3,"file_name, record_count, description"
+deliveries,950,13,"delivery_id, order_id, driver_id, vehicle_id, hub_id, dispatch_time, delivery_completed_at, delivery_status, route_distance_km, manual_route_override_count, proof_of_completion_missing, customer_rating_post_delivery, fuel_or_charge_cost"
+drivers,170,8,"driver_id, base_zone, employment_type, years_experience, training_score, driver_rating, shift_preference, active_flag"
+hubs,8,5,"hub_id, hub_name, zone, hub_type, capacity_score"
+incidents,280,7,"incident_id, delivery_id, incident_type, reported_at, severity, resolution_status, resolved_hours"
+orders,1250,11,"order_id, customer_id, service_type, order_created_at, promised_window_hours, pickup_zone, dropoff_zone, priority_level, order_value, booking_channel, special_handling_flag"
+vehicles,120,8,"vehicle_id, vehicle_type, assigned_zone, commission_date, battery_health_pct, odometer_km, maintenance_status, telematics_version"

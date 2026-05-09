@@ -1,0 +1,11 @@
+dataset,possible_id_columns,granularity_guess
+app_events,"event_id, customer_id, order_id, session_id",One row per app_event
+complaints,"complaint_id, customer_id, order_id",One row per complaint
+customers,customer_id,One row per customer
+data_dictionary,,One row per data_dictionary
+deliveries,"delivery_id, order_id, driver_id, vehicle_id, hub_id, manual_route_override_count",One row per deliverie
+drivers,driver_id,One row per driver
+hubs,hub_id,One row per hub
+incidents,"incident_id, delivery_id, incident_type",One row per incident
+orders,"order_id, customer_id",One row per order
+vehicles,vehicle_id,One row per vehicle

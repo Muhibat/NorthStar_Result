@@ -1,0 +1,7 @@
+metric,value
+total_orders,950.0
+delivered_orders,818.0
+unfulfilled_orders,132.0
+unfulfilled_pct,13.89
+complaint_count,320.0
+incident_count,280.0

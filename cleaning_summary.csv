@@ -1,0 +1,11 @@
+dataset,rows_after_cleaning,columns_after_cleaning,missing_cells_after_cleaning,exact_duplicates_after_cleaning
+app_events,640,11,0,0
+complaints,320,10,0,0
+customers,650,10,0,0
+data_dictionary,9,3,0,0
+deliveries,950,13,33,0
+drivers,170,9,0,0
+hubs,8,6,0,0
+incidents,280,7,0,0
+orders,1250,13,0,0
+vehicles,120,9,0,0

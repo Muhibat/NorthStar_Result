@@ -1,0 +1,5 @@
+Driver with highest anomaly rate: D001 (0.00%).
+Most common complaint group: Delay (101 records).
+Most common incident severity: Low (280 incidents).
+Total orders analysed: 950.
+Unfulfilled orders: 132.

@@ -1,0 +1,10 @@
+dataset,column,old_dtype,new_dtype,action
+app_events,event_timestamp,object,datetime64[ns],datetime conversion
+complaints,created_at,object,datetime64[ns],datetime conversion
+customers,signup_date,object,datetime64[ns],datetime conversion
+deliveries,dispatch_time,object,datetime64[ns],datetime conversion
+deliveries,delivery_completed_at,object,datetime64[ns],datetime conversion
+deliveries,customer_rating_post_delivery,float64,datetime64[ns],datetime conversion
+orders,order_created_at,object,datetime64[ns],datetime conversion
+orders,order_value,float64,datetime64[ns],datetime conversion
+vehicles,commission_date,object,datetime64[ns],datetime conversion

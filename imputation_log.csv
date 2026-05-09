@@ -1,0 +1,9 @@
+dataset,column,method,missing_before,fill_value
+app_events,order_id,categorical_fill,144,O01227
+complaints,compensation_amount,numeric_median,16,18.405
+customers,loyalty_score,numeric_median,20,59.6
+customers,preferred_channel,categorical_fill,13,App
+drivers,training_score,numeric_median,7,75.2
+incidents,resolved_hours,numeric_median,17,11.5
+orders,booking_channel,categorical_fill,25,App
+vehicles,battery_health_pct,numeric_median,4,78.05
