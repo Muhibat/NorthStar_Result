@@ -1,0 +1,104 @@
+dataset,column,original_zone,standardized_zone
+app_events,zone_context,north,North Zone
+app_events,zone_context,SOUTH,South Zone
+app_events,zone_context,Airport,Airport
+app_events,zone_context,CENTRAL,Central Zone
+app_events,zone_context,West,West Zone
+app_events,zone_context,South,South Zone
+app_events,zone_context,Ctr,Ctr
+app_events,zone_context,North,North Zone
+app_events,zone_context,WEST,West Zone
+app_events,zone_context,AIRPORT,Airport
+app_events,zone_context,RiverSide,Riverside
+app_events,zone_context,NORTH,North Zone
+app_events,zone_context,EAST,East Zone
+app_events,zone_context,Riverside,Riverside
+app_events,zone_context,East,East Zone
+app_events,zone_context,Central,Central Zone
+customers,home_zone,North,North Zone
+customers,home_zone,AIRPORT,Airport
+customers,home_zone,East,East Zone
+customers,home_zone,CENTRAL,Central Zone
+customers,home_zone,Riverside,Riverside
+customers,home_zone,WEST,West Zone
+customers,home_zone,north,North Zone
+customers,home_zone,South,South Zone
+customers,home_zone,West,West Zone
+customers,home_zone,Ctr,Ctr
+customers,home_zone,Airport,Airport
+customers,home_zone,EAST,East Zone
+customers,home_zone,SOUTH,South Zone
+customers,home_zone,RiverSide,Riverside
+customers,home_zone,NORTH,North Zone
+customers,home_zone,Central,Central Zone
+drivers,base_zone,AIRPORT,Airport
+drivers,base_zone,Central,Central Zone
+drivers,base_zone,Airport,Airport
+drivers,base_zone,north,North Zone
+drivers,base_zone,CENTRAL,Central Zone
+drivers,base_zone,North,North Zone
+drivers,base_zone,SOUTH,South Zone
+drivers,base_zone,West,West Zone
+drivers,base_zone,East,East Zone
+drivers,base_zone,NORTH,North Zone
+drivers,base_zone,EAST,East Zone
+drivers,base_zone,WEST,West Zone
+drivers,base_zone,Riverside,Riverside
+drivers,base_zone,South,South Zone
+drivers,base_zone,RiverSide,Riverside
+drivers,base_zone,Ctr,Ctr
+hubs,zone,North,North Zone
+hubs,zone,South,South Zone
+hubs,zone,East,East Zone
+hubs,zone,West,West Zone
+hubs,zone,Central,Central Zone
+hubs,zone,Airport,Airport
+hubs,zone,Riverside,Riverside
+orders,pickup_zone,Airport,Airport
+orders,pickup_zone,North,North Zone
+orders,pickup_zone,West,West Zone
+orders,pickup_zone,RiverSide,Riverside
+orders,pickup_zone,Riverside,Riverside
+orders,pickup_zone,CENTRAL,Central Zone
+orders,pickup_zone,NORTH,North Zone
+orders,pickup_zone,South,South Zone
+orders,pickup_zone,WEST,West Zone
+orders,pickup_zone,East,East Zone
+orders,pickup_zone,Ctr,Ctr
+orders,pickup_zone,SOUTH,South Zone
+orders,pickup_zone,Central,Central Zone
+orders,pickup_zone,AIRPORT,Airport
+orders,pickup_zone,north,North Zone
+orders,pickup_zone,EAST,East Zone
+orders,dropoff_zone,South,South Zone
+orders,dropoff_zone,AIRPORT,Airport
+orders,dropoff_zone,North,North Zone
+orders,dropoff_zone,SOUTH,South Zone
+orders,dropoff_zone,East,East Zone
+orders,dropoff_zone,Airport,Airport
+orders,dropoff_zone,Riverside,Riverside
+orders,dropoff_zone,north,North Zone
+orders,dropoff_zone,Central,Central Zone
+orders,dropoff_zone,Ctr,Ctr
+orders,dropoff_zone,CENTRAL,Central Zone
+orders,dropoff_zone,NORTH,North Zone
+orders,dropoff_zone,RiverSide,Riverside
+orders,dropoff_zone,West,West Zone
+orders,dropoff_zone,EAST,East Zone
+orders,dropoff_zone,WEST,West Zone
+vehicles,assigned_zone,North,North Zone
+vehicles,assigned_zone,AIRPORT,Airport
+vehicles,assigned_zone,north,North Zone
+vehicles,assigned_zone,RiverSide,Riverside
+vehicles,assigned_zone,West,West Zone
+vehicles,assigned_zone,Central,Central Zone
+vehicles,assigned_zone,South,South Zone
+vehicles,assigned_zone,NORTH,North Zone
+vehicles,assigned_zone,Riverside,Riverside
+vehicles,assigned_zone,SOUTH,South Zone
+vehicles,assigned_zone,WEST,West Zone
+vehicles,assigned_zone,Airport,Airport
+vehicles,assigned_zone,CENTRAL,Central Zone
+vehicles,assigned_zone,EAST,East Zone
+vehicles,assigned_zone,East,East Zone
+vehicles,assigned_zone,Ctr,Ctr
