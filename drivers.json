@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "D4321",
+    "name": "Jane Doe",
+    "hireDate": "2022-07-15",
+    "homeHubId": "H01",
+    "homeZone": "North Zone",
+    "currentStatus": "Active",
+    "licenses": [
+      "B",
+      "C1"
+    ],
+    "vehicleIds": [
+      "V-1001"
+    ],
+    "performance": {
+      "totalDeliveries": 1832,
+      "onTimeRate": 0.88,
+      "unfulfilledOrders": 45,
+      "anomalyRate": 0.07,
+      "complaintsLinked": 32,
+      "incidentsTotal": 9,
+      "highSeverityIncidents": 3
+    }
+  }
+]

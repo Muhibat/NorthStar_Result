@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "C98765",
+    "name": "ACME Logistics Ltd",
+    "type": "Business",
+    "contact": {
+      "email": "ops@acme.com",
+      "phone": "+44 20 1234 5678"
+    },
+    "locations": [
+      {
+        "label": "HQ",
+        "city": "London",
+        "zone": "Central Zone"
+      },
+      {
+        "label": "Warehouse",
+        "city": "London",
+        "zone": "North Zone"
+      }
+    ],
+    "metrics": {
+      "totalOrders": 312,
+      "totalComplaints": 18,
+      "repeatComplaintCustomers": 5,
+      "avgOnTimeRate": 0.91
+    },
+    "lastOrderAt": "2026-03-01T10:05:00Z"
+  }
+]

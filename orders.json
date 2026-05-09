@@ -1,0 +1,128 @@
+[
+  {
+    "_id": "O123456789",
+    "customerId": "C98765",
+    "driverId": "D4321",
+    "hubId": "H01",
+    "zone": "North Zone",
+    "serviceType": "LastMileDelivery",
+    "status": "Completed",
+    "times": {
+      "orderCreated": "2026-03-01T08:15:00Z",
+      "scheduledPickup": "2026-03-01T09:00:00Z",
+      "dispatched": "2026-03-01T08:45:00Z",
+      "arrivedAtHub": "2026-03-01T09:20:00Z",
+      "outForDelivery": "2026-03-01T09:40:00Z",
+      "delivered": "2026-03-01T10:05:00Z",
+      "windowStart": "2026-03-01T09:30:00Z",
+      "windowEnd": "2026-03-01T10:00:00Z"
+    },
+    "sla": {
+      "deliveryWindowMinutes": 30,
+      "met": false,
+      "lateMinutes": 5
+    },
+    "metrics": {
+      "deliveryTimeHours": 1.83,
+      "lateFlag": true,
+      "unfulfilledFlag": false,
+      "anomalyFlag": true,
+      "cost": 7.5,
+      "revenue": 9.0,
+      "margin": 1.5
+    },
+    "route": {
+      "plannedRouteId": "R567",
+      "manualOverrides": 2,
+      "gpsPath": [
+        {
+          "lat": 51.5001,
+          "lon": -0.1234,
+          "ts": "2026-03-01T09:00:00Z"
+        },
+        {
+          "lat": 51.502,
+          "lon": -0.12,
+          "ts": "2026-03-01T09:05:00Z"
+        }
+      ]
+    },
+    "events": [
+      {
+        "eventType": "APP_BOOKING",
+        "timestamp": "2026-03-01T08:15:00Z",
+        "actor": "CUSTOMER",
+        "channel": "MOBILE_APP",
+        "details": {
+          "pickupLocation": "Station A",
+          "dropoffLocation": "Customer Address",
+          "paymentMethod": "Card"
+        }
+      },
+      {
+        "eventType": "ROUTE_OVERRIDE",
+        "timestamp": "2026-03-01T09:30:00Z",
+        "actor": "DRIVER",
+        "details": {
+          "reason": "Road closure",
+          "fromRouteSegment": "SEG12",
+          "toRouteSegment": "SEG19"
+        }
+      },
+      {
+        "eventType": "DELIVERY_CONFIRMED",
+        "timestamp": "2026-03-01T10:05:00Z",
+        "actor": "DRIVER",
+        "details": {
+          "proofType": "PHOTO",
+          "recipientName": "Smith"
+        }
+      }
+    ],
+    "complaints": [
+      {
+        "complaintId": "COMP-001",
+        "timestamp": "2026-03-01T10:30:00Z",
+        "channel": "APP",
+        "categoryRaw": "Late delivery and poor communication",
+        "categoryGroup": "Delay",
+        "description": "Parcel arrived late and tracking did not update.",
+        "resolutionStatus": "Open",
+        "resolutionActions": [
+          {
+            "timestamp": "2026-03-01T11:00:00Z",
+            "actor": "AGENT",
+            "actionType": "CREDIT_OFFERED",
+            "details": {
+              "amount": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "incidents": [
+      {
+        "incidentId": "INC-101",
+        "timestamp": "2026-03-01T09:50:00Z",
+        "reportedBy": "DRIVER",
+        "typeRaw": "Vehicle breakdown on route",
+        "severity": "High",
+        "location": {
+          "lat": 51.503,
+          "lon": -0.118
+        },
+        "notes": "Engine warning, had to stop for 15 minutes."
+      }
+    ],
+    "platformFlags": {
+      "exceptionCode": "EX_DELIVER_LATE",
+      "sensorAlerts": [
+        {
+          "type": "TYRE_PRESSURE",
+          "level": "Warning",
+          "timestamp": "2026-03-01T09:40:00Z"
+        }
+      ]
+    }
+  }
+]

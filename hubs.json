@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "H01",
+    "name": "North City Hub",
+    "zone": "North Zone",
+    "city": "Manchester",
+    "type": "Warehouse",
+    "capacity": {
+      "docks": 18,
+      "chargingPoints": 24
+    },
+    "metrics": {
+      "avgDispatchPerDay": 950,
+      "avgOnTimeRate": 0.84,
+      "avgComplaintRatePer100": 4.5
+    }
+  }
+]
